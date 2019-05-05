@@ -18,5 +18,6 @@ class InsertCarTest extends TestCase
     {
         $car = factory (\App\Car::class)->make();
         $this->assertTrue($car->save());
+        
     }
 }
